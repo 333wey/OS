@@ -1604,7 +1604,7 @@ ffffffffc0200b58:	04e78663          	beq	a5,a4,ffffffffc0200ba4 <exception_handl
 ffffffffc0200b5c:	02f76c63          	bltu	a4,a5,ffffffffc0200b94 <exception_handler+0x4a>
 ffffffffc0200b60:	4709                	li	a4,2
 ffffffffc0200b62:	02e79563          	bne	a5,a4,ffffffffc0200b8c <exception_handler+0x42>
-             /* LAB3 CHALLENGE3   YOUR CODE : 2311807 问丕丕 */
+             /* LAB3 CHALLENGE3   YOUR CODE : 2312404 王恩业 */
             /*(1)输出指令异常类型（ Illegal instruction）
              *(2)输出异常指令地址
              *(3)更新 tf->epc寄存器
